@@ -63,7 +63,7 @@ var contact = {
 };
 
 //doubt
-console.log("undefined testing" + contact.undefined);
+console.log(contact.undefined, "undefined");
 
 console.log(contact.contact)
 
@@ -123,3 +123,15 @@ console.log(fruits.shift());
 console.log(fruits)
 
 var veggies = ["tomato", "onion", ""]
+
+
+var x = 2;
+
+function abc() {
+    var x = 5;
+
+    console.log(x);
+}
+
+abc();
+console.log("differ ", x);
