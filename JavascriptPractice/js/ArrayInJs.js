@@ -1,7 +1,20 @@
 "use strict"
 
 //var name = ["viki", 9176309643];
+/*
+When we tried to use variable name as name in browser console 
+it had returned us the error of 
+".push() not a function type error : undefined is not a function" because
+each Global JavaScript objects, functions, 
+and variables become part of the window 
+object automatically. All global variables are window object properties,
+ and all global functions are its methods.
 
+ window.name is also generic existing inside window object which is 
+ of type string so when we try to change that by pushing a value 
+ it gives us an error
+ hence name variable name cannot be used in browser console
+*/
 //name.push(22653596);
 
 //console.log(name);
